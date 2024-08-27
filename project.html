@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaryan Tyagi's Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+             <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#extra">Extra-Curricular</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1>Hi, I am Aaryan<span class="dots"></span></h1>
+                    <p>I am Aaryan, the developer, designer</p>
+                    <a href="#about" class="btn">About Me</a>
+                </div>
+                <div class="home-image">
+                    <img src="12 aaryan tyagi.jpg" alt="Aaryan Tyagi">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="content">
+                <h2>About Me</h2>
+                <img src="your-photo.jpg" alt="Aaryan Tyagi">
+                <p>Bachelor of Technology, Manipal University Jaipur</p>
+                <p>Relevant Coursework: Data Structures, RDBMS, Machine Learning, Object Oriented Programming, Deep Learning, Artificial Intelligence.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <div class="content">
+                <h2>Skills</h2>
+                <p>JAVA, C/C++, JavaScript, Python, React.js, Node.js, HTML5, CSS, RESTful, SQL/MySQL, MongoDB, Computer Fundamentals, Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Management, Teamwork Communication.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <div class="content">
+                <h2>Experience</h2>
+                <h3>Trainee</h3>
+                <p>May 2023 - July 2023, Achintya Healthcare Private Limited, Meerut, UP</p>
+                <ul>
+                    <li>Acquired practical expertise with SCADA (Supervisory Control and Data Acquisition) systems.</li>
+                    <li>Leveraged advanced Computer Science architecture principles to significantly enhance system functionality, resulting in a 30% improvement in operational efficiency.</li>
+                    <li>Implemented ladder logic for industrial machine access, reducing manual effort by up to 25%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <div class="content">
+                <h2>Projects</h2>
+                <h3>Wine Quality Prediction Project</h3>
+                <ul>
+                    <li>Developed a machine learning model using a Kaggle dataset of over 4,000 wine samples to predict wine quality.</li>
+                    <li>Conducted data preprocessing, feature engineering, and model evaluation, achieving an accuracy of 85%.</li>
+                </ul>
+                <h3>Autonomous Vehicle Object Tracking</h3>
+                <ul>
+                    <li>Utilized Python and YOLO for real-time object detection and tracking in Advanced Driver Assistance Systems (ADAS).</li>
+                    <li>Enhanced situational awareness and safety in autonomous vehicles, reducing detection errors by 20%.</li>
+                </ul>
+                <h3>Library Management System using RDBMS</h3>
+                <ul>
+                    <li>Developed an efficient Library Management System using a Relational Database Management System (RDBMS).</li>
+                    <li>Managed books, members, and transactions to ensure smooth library operations, reducing book retrieval time by 40%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="extra" class="content-section">
+            <div class="content">
+                <h2>Extra-Curricular Activities</h2>
+                <p>Active member of the college robotics club and participated in various inter-college technical events.</p>
+            </div>
+        </section>
+
+        <section id="courses" class="content-section">
+            <div class="content">
+                <h2>Relevant Courses</h2>
+                <ul>
+                    <li>Data Structures</li>
+                    <li>Database Management Systems</li>
+                    <li>Machine Learning</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Artificial Intelligence</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contacts" class="content-section">
+            <div class="content">
+                <h2>Contacts</h2>
+                <p>Email: <a href="mailto:tyagiaaryan25@gmail.com">tyagiaaryan25@gmail.com</a></p>
+                <p>Phone: 8766270366</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aaryantyagi2003/" target="_blank">Aaryan Tyagi</a></p>
+                <p>GitHub: <a href="https://github.com/aaryantyagi" target="_blank">aaryantyagi</a></p>
+
+                <h3>Get in Touch</h3>
+                <form id="contact-form" action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company:</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aaryan Tyagi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
